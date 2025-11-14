@@ -57,6 +57,27 @@
         z-index: 1;
            animation: fadeIn 3s ease;
       }
+     .negative {
+  color: #c70039;
+  text-shadow: 0 0 5px #c70039,
+    0 0 10px #ff0149,
+    0 0 15px #ff0149;
+}
+
+.positive {
+  color: #06d6a0;
+  text-shadow: 0 0 5px #06d6a0,
+    0 0 10px #02fdba,
+    0 0 15px #02fdba;
+}
+
+
+.mixed {
+  color: #ffa600;
+  text-shadow: 0 0 5px #ffa600,
+    0 0 10px #ff7700,
+    0 0 15px #ff7700;
+}
 
       hr {
         width: 60%;
@@ -98,4 +119,4 @@
       }
 
 
-/* ===== Update 0.4V ===== */
+/* ===== Update 0.5V ===== */
